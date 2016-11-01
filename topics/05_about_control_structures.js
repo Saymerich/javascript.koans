@@ -1,4 +1,4 @@
-module("About Control Structures (topics/about_control_structures.js)");
+module("About Control Structures (topics/05_about_control_structures.js)");
 
 test("if", function() {
 	var isPositive = false;

@@ -1,5 +1,5 @@
 
-module("About Equality (topics/about_equality.js)");
+module("About Equality (topics/02_about_equality.js)");
 
 test("numeric equality", function() {
     equal(3 + __,  7, "");

@@ -1,4 +1,4 @@
-module("About Scope (topics/about_scope.js)");
+module("About Scope (topics/15_about_scope.js)");
 
 thisIsAGlobalVariable = 77;
 
