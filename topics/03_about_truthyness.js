@@ -1,5 +1,5 @@
 
-module("About Truthyness (topics/about_truthyness.js)");
+module("About Truthyness (topics/03_about_truthyness.js)");
 
 test("truthyness of positive numbers", function() {
     var oneIsTruthy = 1 ? true : false;

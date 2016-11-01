@@ -1,5 +1,5 @@
 
-module("About Operators (topics/about_operators.js)");
+module("About Operators (topics/01_about_operators.js)");
 
 test("addition", function() {
   var result = 0;

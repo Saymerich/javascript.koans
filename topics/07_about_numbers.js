@@ -1,5 +1,5 @@
 
-module("About Numbers (topics/about_numbers.js)");
+module("About Numbers (topics/07_about_numbers.js)");
 
 test("types", function() {
     var typeOfIntegers = typeof(6);
