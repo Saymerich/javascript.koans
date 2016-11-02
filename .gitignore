@@ -1,3 +1,6 @@
-*.swp
-.idea
 node_modules/
+solution/
+esdoc/
+test/dist/*
+.idea
+npm-debug.log

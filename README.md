@@ -10,4 +10,4 @@ This should open a browser and give you a nice live reload
 
 For those using WallabyJS, just run it and you'll be on your way to master JS syntax
 
----
+[Hackages Team](http://hackages.io)
