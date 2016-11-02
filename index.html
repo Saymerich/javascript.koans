@@ -1,29 +1,33 @@
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>JavaScript Koans Part 1</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.1.2/mocha.css" rel="stylesheet" />
+	<meta charset="utf-8">
+	<title>JavaScript Koans Part 1</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.1.2/mocha.css" rel="stylesheet" />
 </head>
+
 <body>
-  <div id="mocha"></div>
+	<div id="mocha"></div>
 
-  <script src="https://cdn.rawgit.com/jquery/jquery/2.1.4/dist/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.1.2/mocha.js"></script>
+	<script src="https://cdn.rawgit.com/jquery/jquery/2.1.4/dist/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.1.2/mocha.js"></script>
 
-  <script>mocha.setup('bdd')</script>
-  <script src="test/dist/00_about_asserts.spec.js"></script>
-  <script src="test/dist/02_about_equality.spec.js"></script>
-  <script src="test/dist/04_about_assignment.spec.js"></script>
-  <script src="test/dist/06_about_strings.spec.js"></script>
-  <script src="test/dist/08_about_objects.spec.js"></script>
-  <script src="test/dist/10_about_reflection.spec.js"></script>
-  <script src="test/dist/12_about_prototypal_inheritance.spec.js"></script>
-  <script src="test/dist/14_about_this.spec.js"></script>
-  <script src="test/dist/16_about_regular_expressions.spec.js"></script>
-  <script>
+	<script>mocha.setup('bdd')</script>
+	<script src="test/dist/00_about_asserts.spec.js"></script>
+	<script src="test/01_about_operators.spec.js"></script>
+	<script src="test/dist/02_about_equality.spec.js"></script>
+	<script src="test/dist/04_about_assignment.spec.js"></script>
+	<script src="test/dist/06_about_strings.spec.js"></script>
+	<script src="test/dist/08_about_objects.spec.js"></script>
+	<script src="test/dist/10_about_reflection.spec.js"></script>
+	<script src="test/dist/12_about_prototypal_inheritance.spec.js"></script>
+	<script src="test/dist/14_about_this.spec.js"></script>
+	<script src="test/dist/16_about_regular_expressions.spec.js"></script>
+	<script>
     mocha.checkLeaks();
     mocha.globals(['jQuery']);
     mocha.run();
   </script>
 </body>
+
 </html>
